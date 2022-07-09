@@ -1,16 +1,24 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Vue.js App" mensaje="props in vue"/>
+  <!--<PropsModal /> -->
+
+
+  <!--<button class="btn btn-success">Abrir Modal</button> -->
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+/*import PropsModal from './components/PropsModal.vue' */
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+    /* PropsModal */
+  },
+  
 }
 </script>
 
